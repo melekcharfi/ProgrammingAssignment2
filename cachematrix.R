@@ -1,4 +1,6 @@
-##The following functions will cache the inverse of a matrix
+## The following functions will cache the inverse of a matrix as this might be
+## a potentially time-consuming computation. The inverse of a matrix will be
+## retrieved from the cache if it has already been calculated
 
 
 ## This function creates a special "matrix" object that can cache its inverse.
